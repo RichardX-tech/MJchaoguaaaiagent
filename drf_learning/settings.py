@@ -25,6 +25,7 @@ SECRET_KEY = 'django-insecure-8=+51@b$4+88jduxbu(8=z&u3957g90@pl6#1odbk300bv+1pz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# PS：这里需要注意的是course中虽然讲解了直接放""就可以了，但是还是要增加对应的localhost和127.0.0.1本地IP
 ALLOWED_HOSTS = ["", "127.0.0.1", "localhost", "198.18.0.1", "198.18.0.2", "192.168.100.16"]
 
 
